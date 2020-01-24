@@ -20,10 +20,6 @@ public class TelephonicContact implements Serializable{
         setName(name);
         setNumber(number);
     }
-
-    public TelephonicContact(Object name, Object number) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
     
     public String getName(){
         return this.name;
